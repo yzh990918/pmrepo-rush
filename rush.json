@@ -256,7 +256,7 @@
     // "changeLogUpdateCommitMessage": "Update changelogs [skip ci]"
   },
   "repository": {
-    "url": "https://github.com/vbs-plus/pmrepo-rush", 
+    "url": "https://github.com/vbs-plus/pmrepo-rush",
     "defaultBranch": "master", // 设置 diff 的目标分支， 默认就是 master
     "defaultRemote": "origin"
 
@@ -408,6 +408,11 @@
     //   // "tags": ["apps", "web"]
     // },
     //
+    {
+      "packageName": "pmrepo",
+      "projectFolder": ".",
+      "shouldPublish": true
+    },
     {
       "packageName": "@pmrepo/core",
       "projectFolder": "packages/core",

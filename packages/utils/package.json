@@ -2,6 +2,9 @@
   "name": "@pmrepo/utils",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -11,9 +14,6 @@
     "dev": "npm run build -- --watch",
     "test": "vitest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^22.0.1",

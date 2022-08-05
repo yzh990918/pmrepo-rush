@@ -2,23 +2,23 @@
   "name": "@pmrepo/core",
   "version": "1.0.0",
   "description": "",
-  "sideEffects": false,
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "dist/index.js",
-  "bin": {
-    "pm": "bin/pm.mjs"
-  },
   "files": [
     "dist"
   ],
+  "bin": {
+    "pm": "bin/pm.mjs"
+  },
+  "sideEffects": false,
   "scripts": {
     "build": "rollup -c",
     "dev": "npm run build -- --watch",
     "start":"npm run build && pnpm link -g",
     "test": "vitest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@pmrepo/utils": "workspace:^1.0.0",
     "@rollup/plugin-alias": "^3.1.9",
@@ -27,8 +27,8 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.4",
     "@types/node": "^18.6.4",
-    "rollup": "^2.77.2",
     "esbuild": "^0.14.53",
+    "rollup": "^2.77.2",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-esbuild": "^4.9.1",
