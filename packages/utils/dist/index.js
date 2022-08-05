@@ -9,9 +9,9 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var log__default = /*#__PURE__*/_interopDefaultLegacy(log);
 
 // packages/uilts/index.ts
-log__default["default"].level = process.env.LOG_LEVEL ? process.env.LOG_LEVEL : "info";
-log__default["default"].heading = "pm";
-log__default["default"].addLevel("success", 2000, { fg: "green", bold: true });
+log__default["default"].level = process.env.LOG_LEVEL ? process.env.LOG_LEVEL : 'info';
+log__default["default"].heading = 'pm';
+log__default["default"].addLevel('success', 2000, { fg: 'green', bold: true });
 
 Object.defineProperty(exports, 'log', {
 	enumerable: true,

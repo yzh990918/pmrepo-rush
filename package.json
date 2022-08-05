@@ -7,7 +7,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "rush update",
+    "bootstrap": "zi && rush update",
     "start": "cd packages/core && zr start",
     "lint": " eslint packages --fix  ",
     "test": "vitest",

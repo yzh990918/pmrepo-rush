@@ -408,11 +408,11 @@
     //   // "tags": ["apps", "web"]
     // },
     //
-    {
-      "packageName": "pmrepo",
-      "projectFolder": ".",
-      "shouldPublish": true
-    },
+    // {
+    //   "packageName": "pmrepo",
+    //   "projectFolder": ".",
+    //   "shouldPublish": false
+    // },
     {
       "packageName": "@pmrepo/core",
       "projectFolder": "packages/core",

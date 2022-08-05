@@ -9,6 +9,13 @@ npm install -g @microsoft/rush
 
 # 安装依赖
 npm run bootstrap
+
+# 链接bin
+rush build 
+npm run start
+
+# 查看bin效果
+pm
 ```
 
 ## 创建子项目
@@ -74,4 +81,14 @@ rush build -o @pmrepo/core
 
 # 依赖包打包
 rush build -i @pmrepo/utils
+```
+
+
+# 发布
+
+```shell
+rush build
+git add .
+git commit -m "chore: publish"
+
 ```

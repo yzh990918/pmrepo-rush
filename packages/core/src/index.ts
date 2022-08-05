@@ -5,7 +5,7 @@ const core = () => {
   log.info('test', 'Hello world!')
 }
 
-console.log('core change')
+console.log('core change test')
 log.info('test', 'Hello world!')
 
 export default core
