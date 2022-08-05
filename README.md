@@ -90,5 +90,7 @@ rush build -i @pmrepo/utils
 rush build
 git add .
 git commit -m "chore: publish"
-
+rush change
+rush publish --apply
 ```
+

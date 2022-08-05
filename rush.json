@@ -414,13 +414,13 @@
     //   "shouldPublish": false
     // },
     {
-      "packageName": "@pmrepo/core",
+      "packageName": "pmrepo-core",
       "projectFolder": "packages/core",
       "reviewCategory": "tools",
       "shouldPublish": true
     },
     {
-      "packageName": "@pmrepo/utils",
+      "packageName": "pmrepo-utils",
       "projectFolder": "packages/utils",
       "reviewCategory": "tools",
       "shouldPublish": true
