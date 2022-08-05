@@ -8,8 +8,8 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "zi && rush update",
-    "start": "cd packages/core && zr start",
-    "lint": " eslint packages --fix  ",
+    "start": "cd packages/core && npm run link",
+    "lint": " eslint packages --fix",
     "test": "vitest",
     "prepare": "husky install"
   },
