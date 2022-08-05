@@ -2,6 +2,8 @@
 
 pnpm + rushjs monorepo 模板
 
+测试地址：https://www.npmjs.com/package/pmrepo-core
+
 ## 前置
 
 ```shell
