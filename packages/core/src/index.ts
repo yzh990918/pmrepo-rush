@@ -1,4 +1,4 @@
-import { log } from '@pmrepo/utils/src'
+import { log } from 'pmrepo-utils/src'
 
 const core = () => {
   console.log('core change')
