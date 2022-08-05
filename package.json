@@ -1,0 +1,35 @@
+{
+  "name": "pmrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap":"rush update",
+    "start": "cd packages/core && zr start",
+    "lint": "eslint .",
+    "test": "vitest",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "za-zi": "^0.0.7",
+    "@antfu/eslint-config": "^0.22.0",
+    "vitest": "^0.10.0",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "husky": "^7.0.0",
+    "lint-staged": "^10.0.0",
+    "eslint":"^7.1.0"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*": "npm run lint"
+  }
+}
